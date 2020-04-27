@@ -45,7 +45,13 @@
     text-align: left;
   }
   
-  .menu-icon{
+  /* Tambahkan CSS untuk header-right */
+  .header-list {
+    display:none;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
     display: block;
   }
   
@@ -59,7 +65,7 @@
     line-height: 20px;
   }
   .gaya {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
