@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Catamaran:wght@500&family=Lobster&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: grey;
+}
+.header li{
+  list-style: none;
+  float:left;
+  font-size:20px;
+  padding-top:37px;
+  padding-left:40px;
+  padding-right:20px;
+}
+
+.list {
+  color: white;
+}
+
+.header {
+  background-color: #222830;
+  color: #f4841A;
+  height: 100px;
+}
+
+.header2{
+  background-color: #004C56;
+  height:10px; 
+}
+
+.logo{
+  width:15px;
+  height:15px;
+}
+
+.co{
+  font-size:10px;
+  color:#8c6239;
+  float:right;
+  padding-top:35px;
+  padding-right:15px; 
+}
+
+.header-logo {
+  width: 75px;
+  height: 75px;
+  float: left;
+  padding-top:12px;
+  padding-left:30px;
+}
+
+.main {
+  background-color: #B0B5B5;
+  height: 600px;
+}
+
+.footer {
+  background-color: #f4841A;
+  height: 270px;
+}
+
+/*INI CSS ZEN*/
+body {
+  margin: 0;
+  font-family: "Catamaran", sans-serif; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  background-image: url(top.jpg);
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  
+  top: 44%;
+  width: 100%;
+  color:black;
+  font-size: 15px;
+}
+
+.lesson-icon img{
+  border-radius: 50%;
+  -webkit-transform: 0.4s ease;
+  transition: 0.4s ease;
+  
+
+}
+.lesson:hover .lesson-icon img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+/*INI CSS NAUFAL*/
+
+.extra-dua {
+  text-align: center;
+}
+h2 {
+  font-family: 'Catamaran', sans-serif, 'Lobster', cursive;
+}
+article {
+  font-family: 'Catamaran', sans-serif;
+}
+.properti-gambar {
+    max-height: 200px;
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+}
+.gaya {
+    background-color: #ededed;
+    border-bottom: 5px solid black;
+    padding: 30px;
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 16px;
+}
+#tombol {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  outline: none;
+  background-color: #222830;
+  color: white;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#tombol:hover {
+  background-color: grey;
+  color: black;
+}
+/* Ini Footer Nurdiyanto */
+footer img {
+  width: 150px;
+}
+
+footer p {
+  color : #b3aeb5;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background-color: #004C56; 
+}
+
