@@ -87,8 +87,8 @@ a {
 }
 
 .top-wrapper {
+  background-image: url(top.jpg);
   padding: 180px 0 100px 0;
-  background-color: wheat;
   background-size: cover;
   color: white;
   text-align: center;
@@ -253,7 +253,7 @@ article {
 }
 /* Ini Footer Nurdiyanto */
 footer img {
-  width: 125px;
+  width: 150px;
 }
 
 footer p {
