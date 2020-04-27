@@ -1,129 +1,269 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G30 DTS Progate</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script src="java.js"></script>
-  </head>
-  <body>
-    <div class="header">
-      <img class="header-logo" src="Logo4.png">
-      <div class="header-list">
-        <ul>
-          <li class="list"><img class="logo" src="Home.png"><a href="#"> Home</a></li>
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Catamaran:wght@500&family=Lobster&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+}
 
-          <li class="list"><img class="logo" src="About.png"><a href="#identitas"> About Us</a></li>
-          
-          <li class="list"><img class="logo" src="Article.png"><a href="#bijak"> Article</a></li>
-        </ul>
-          <p class="co">©Copyright G30-Progate</p>
-      </div>
-    </div>
+a {
+  color: white;
+}
+a:hover {
+  color: grey;
+}
+.header li{
+  list-style: none;
+  float:left;
+  font-size:20px;
+  padding-top:37px;
+  padding-left:40px;
+  padding-right:20px;
+}
 
-    <!-- INI BAGIAN UTAMA -->
-    <div class="top-wrapper">
-      <div class="container">
-        <h1>DIGITAL TALENT SCHOLARSHIP</h1>
-        <h1>SELAMAT DATANG DI WEB G-30 DTS PROGATE</h1>
-      </div>
-    </div>
+.list {
+  color: white;
+}
 
-    <!-- INI BAGIAN EXTRA 1 -->
-    <div class="lesson-wrapper">
-      <div class="container">
-        <div class="heading" id="identitas">
-          <h2>PROFILE TEAM G-30 DTS PROGATE </h2>
-        </div>
-        <div class="lessons">
+.header {
+  background-color: #222830;
+  color: #f4841A;
+  height: 100px;
+}
 
-  <!-- 1.ZEN -->
-          <div class="lesson satu">
-            <div class="lesson-icon">
-              <img src="zen.jpg"width="200" height="200">
-               <p>Muhammad Zen</p>
-            </div>
-             <q class="text-contents">Usaha saja tidak cukup, tapi usaha dengan ilmu lah yang tidak mengkhianati hasil.</q> <br>
-          </div>
+.header2{
+  background-color: #004C56;
+  height:10px; 
+}
+
+.logo{
+  width:15px;
+  height:15px;
+}
+
+.co{
+  font-size:10px;
+  color:#8c6239;
+  float:right;
+  padding-top:35px;
+  padding-right:15px; 
+}
+
+.header-logo {
+  width: 75px;
+  height: 75px;
+  float: left;
+  padding-top:12px;
+  padding-left:30px;
+}
+
+.main {
+  background-color: #B0B5B5;
+  height: 600px;
+}
+
+.footer {
+  background-color: #f4841A;
+  height: 270px;
+}
+
+/*INI CSS ZEN*/
+body {
+  margin: 0;
+  font-family: "Catamaran", sans-serif; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  background-image: url(top.jpg);
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
 
 
-  <!-- 2.NORMAN -->
-          <div class="lesson satu">
-            <div class="lesson-icon">
-              <img src="norman.jpg"width="200" height="200">
-              <p>Normandia Akbar</p>
-            </div>
-            <q class="text-contents">Langkah ke-seribu itu dimulai dari langkah pertama, jadi ayo melangkah dan jangan berhenti.</q> <br>
-          </div>
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
 
 
-   <!-- 3.BABEH_NOEARDY -->
-          <div class="lesson satu">
-            <div class="lesson-icon">
-              <img src="babeh_noerdy.JPG"width="200" height="200">
-              <p>Nurdiyanto</p>
-            </div>
-            <q class="text-contents">Belajarlah dari siapapun, dimanapun dan kapanpun, dan amalkanlah ilmumu kepada siapapun, kapanpun dan dimanapun.</q>
-          </div>
 
+.header-left {
+  float: left;
+}
 
-    <!-- 4.MUTTAZAM -->
-          <div class="lesson satu">
-            <div class="lesson-icon">
-              <img src="mutazam.jpg"width="200" height="200">
-              <p>Muttazam</p>
-            </div>
-            <q class="text-contents">Selagi masih hidup kan ku tuntut ilmu sampai orang lain pun berkata nak suda cukup,  kita suda bukan di alam dunia lagi.</q>
-          </div>
-         
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
 
-    <!-- 5.NAUFAL -->
-          <div class="lesson duo">
-            <div class="lesson-icon">
-              <img src="naufal.jpg" width="200" height="200" >
-               <p>Muhammad Naufal Widad</p>
-            </div>
-             <q class="text-contents">Kesempatan tidak datang dua kali, tetapi kesempatan datang kepada siapa yang tidak pernah berhenti mencoba</q>
-          </div>
-        
-        
-          <div class="clear"></div>
-        </div>
-      </div>
-    </div>
-    <!--INI BAGIAN EXTRA 2-->
-    <div class="kepala-extra" id="bijak">
-      <h2 class="extra-dua">BEBERAPA KALIMAT PILU DARI KAMI, G-30 DTS PROGATE</h2>
-    </div>
-    <div id="content">
-      <article id="ego" class="gaya">
-          <h2 id="ego">EGO</h2>
-          <p>Aku yakin semua orang menginginkan kehadiran orang baik di hidupnya. Pasalnya, sudah menjadi fitrah manusia menginginkan dicintai ataupun mencintai. Berbicara soal kebaikan, ada begitu banyak orang baik di bumi ini, entah itu baik secara sempurna, ataupun baik karena kebetulan.</p>
-          <p>Ada satu hal yang sering manusia lupakan, yakni ia tidak menyadari betapa sulitnya mencintai itu. Cinta secara harfiah atau literal, maupun cinta secara bahasa dan istilah. Bahkan ada juga orang yang mengartikan cinta secara paradoks.</p>
-          <img src="ego.jpg" class="properti-gambar" alt="ego">
-          <p>Pada hakikatnya, semua hal yang ada di bumi ini berpasangan, abadi dan fana, cinta dan benci, kebenaran dan kesalahan, pun demikian dengan kebaikan dan ketidakbaikan. Sebuah ketidakbaikan muncul ketika manusia tidak bisa menahan egonya. Merasa sebagai pemilik atas segala sesuatu.</p>
-          <p>Ketika seseorang merasa bahwa orang yang dicintai seketika menghilang tanpa kabar, atau merasa bahwa ia membagikan kebaikannya terhadap makhluk lain adalah sebuah hal yang menyakitkan untuknya, sejatinya manusia tersebut telah dibutakan oleh ego.</p>
-          <p>Bukankah sebuah Kebaikan adalah hak dari setiap makhluk? Seperti binatang yang haus akan kasih sayang, atau tumbuhan yang pada dasarnya selalu merindukan air. Mengertilah bila engkau bukan lagi pemilik dari prioritasnya, karena mungkin ada begitu banyak kebaikan yang harus ia bagikan.</p>
-      </article>
-      <article id="rindu" class="gaya">
-          <h2 id="rindu">RINDU</h2>
-          <p>Tuan sang pemilik hati berkata pada rintik hujan akan Rindu yang tak berpihak pada siapapun. Tatkala Rindu menjadi suatu hal yang pelik untuk dirasa, hati yang merasakan rintih, pun bibir yang tak sanggup menahan lirih.</p>
-          <p>Sedahsyat itukah kekuatan dari Rindu?</p>
-          <img src="rindu.jpeg" class="properti-gambar" alt="rindu">
-          <p>Berbicara tentang Rindu, tak ada yang mampu mengobati, melainkan pertemuan.</p>
-          <p>Tak selamanya pertemuan dapat terlaksana semudah ombak yang mengguyur tepian pantai, atau angin yang berembus menyapa rindangnya pepohonan. Dengan melihat langit yang sama, sekaligus segala keindahan yang dimilikinya, cukup untuk membendung si ‘Rindu’.</p>
-      </article>
-      <button onclick="topFunction()" id="tombol" title="Back to Top">Top</button>
-      </div>
-    </div>
-    <!--INI BAGIAN FOOTER-->
-    <footer>
-      <div class="footer-left">
-        <img src="logo5.png">
-        <p>All Right Reserved ©2020 || Web development by Kelompok G-30 Progate</p>
-    </footer>
-  </body>
-</html>
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  
+  top: 44%;
+  width: 100%;
+  color:black;
+  font-size: 15px;
+}
+
+.lesson-icon img{
+  border-radius: 50%;
+  -webkit-transform: 0.4s ease;
+  transition: 0.4s ease;
+  
+
+}
+.lesson:hover .lesson-icon img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+/*INI CSS NAUFAL*/
+
+.extra-dua {
+  text-align: center;
+}
+h2 {
+  font-family: 'Catamaran', sans-serif, 'Lobster', cursive;
+}
+article {
+  font-family: 'Catamaran', sans-serif;
+}
+.properti-gambar {
+    max-height: 200px;
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+}
+.gaya {
+    background-color: #ededed;
+    border-bottom: 5px solid black;
+    padding: 30px;
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 16px;
+}
+#tombol {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  outline: none;
+  background-color: #222830;
+  color: white;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#tombol:hover {
+  background-color: grey;
+  color: black;
+}
+/* Ini Footer Nurdiyanto */
+footer img {
+  width: 150px;
+}
+
+footer p {
+  color : #b3aeb5;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background-color: #004C56; 
+}
+
